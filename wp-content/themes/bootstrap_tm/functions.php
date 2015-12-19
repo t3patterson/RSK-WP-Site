@@ -80,6 +80,7 @@
       'after_widget' => '</div>',
       'before_title' => '<h3>',
       'after_title' => '</h3>'
+      
     ];
 
     register_sidebar($widget_options);
@@ -92,7 +93,7 @@
   create_widget('Page Sidebar', 'page', 'Displays on pages w sidebar');
   create_widget('Blog Sidebar', 'blog', 'Displays on the side of pages in the blog section');
 
-
+  create_widget('Company-Description', 'company-desc', 'Wall of Text');
 
 
 ?>

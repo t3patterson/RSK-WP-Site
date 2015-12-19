@@ -121,6 +121,15 @@ nav .sub-menu li:hover a {
   background-size: cover;
 }
 
+.fp-content-area {
+  background: url('./images/derrick-sketch.png') 83% 93% no-repeat;
+  background-size: cover;
+}
+
+.fp-content-area .container{
+  background: #fff;
+}
+
 
 /*-- For a blog post --*/
 
@@ -198,7 +207,10 @@ aside.comment:nth-of-type(2n){
 /*--- Med-Screen+ Styles  ---*/
 
 @media screen and (min-width: 768px) {  
-  
+  body.admin-bar{
+    padding-top: 89px;
+  }
+
   .admin-bar .navbar-fixed-top{
     margin-top: 32px;
     border-top: 3px red solid;
@@ -263,6 +275,11 @@ aside.comment:nth-of-type(2n){
     display: block;
   }
 
+  /*front-page  >> */
+  .front-page{
+    padding: 40px 0;
+    border-bottom: 30px rgba(255,198,0,1) solid;
+  }
 
   .single-portfolio .feature-image img{
     width: 100%;
