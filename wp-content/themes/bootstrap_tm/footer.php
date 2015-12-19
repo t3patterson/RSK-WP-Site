@@ -1,5 +1,3 @@
-  <hr>
-
   <footer>
     <p>&copy; <?php echo bloginfo('name') . "  20" . date('y') ?></p>
   </footer> 

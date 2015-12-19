@@ -130,6 +130,10 @@ nav .sub-menu li:hover a {
   background: #fff;
 }
 
+.fp-content-area p{
+  font-size: 18px;
+}
+
 
 /*-- For a blog post --*/
 
@@ -203,6 +207,14 @@ aside.comment:nth-of-type(2n){
   font-size: 28px;
 }
 
+/*--- Footer ---*/
+footer {
+  padding: 15px;
+  background: rgba(89,91,91,1);
+  color: #fff;
+
+}
+
 
 /*--- Med-Screen+ Styles  ---*/
 
@@ -223,7 +235,9 @@ aside.comment:nth-of-type(2n){
   }
 
   nav .navbar-brand {
-    padding: 0px;
+    position: relative;
+    left: 20px;
+    padding: 0px 0 0 00px;
   }
 
   nav .navbar-brand img {
@@ -244,10 +258,10 @@ aside.comment:nth-of-type(2n){
     border-right: 2px rgba(255,198,0,1) solid;
   }
   nav ul.navbar-nav .menu-item:first-of-type {
-    border-left: 3px rgba(255,198,0,1) solid;
+    border-left: 4px rgba(255,198,0,1) solid;
   }
   nav ul.navbar-nav .menu-item:last-of-type {
-    border-right: 3px rgba(255,198,0,1) solid;
+    border-right: 4px rgba(255,198,0,1) solid;
   }
 
   nav .sub-menu {
