@@ -116,8 +116,8 @@ nav .sub-menu li:hover a {
 
 /*-- Front Page (Landing Page) - Style  --*/
 
-.front-page{
-  background: url('./images/mtns_1024.jpg') 0% 0% no-repeat;
+/*.front-page{
+  background: url('./images/mtns_1024.jpg') 00% 00% no-repeat;
   background-size: cover;
 }
 
@@ -132,7 +132,18 @@ nav .sub-menu li:hover a {
 
 .fp-content-area p{
   font-size: 18px;
+}*/
+
+.carousel{
+  height: 200px;
 }
+
+
+.carousel-inner,
+.item {
+  height: 100%;
+}
+
 
 
 /*-- For a blog post --*/
@@ -291,7 +302,6 @@ footer {
 
   /*front-page  >> */
   .front-page{
-    padding: 40px 0;
     border-bottom: 30px rgba(255,198,0,1) solid;
   }
 
