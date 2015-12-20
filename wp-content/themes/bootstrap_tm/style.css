@@ -134,10 +134,33 @@ nav .sub-menu li:hover a {
   font-size: 18px;
 }*/
 
-.carousel{
+.front-page-slider.carousel{
   height: 200px;
 }
 
+.front-page-slider .carousel-caption{
+    background: rgba(100,100,100,.8);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+
+  }
+
+  .front-page-slider .item:nth-of-type(1) .carousel-caption {
+    top: 10%;
+    left: 15%;
+  }
+
+  .front-page-slider .item:nth-of-type(2) .carousel-caption {
+    top: 28%;
+    left: 70%;
+  }
+
+  .front-page-slider .item:nth-of-type(3) .carousel-caption {
+    top: 48%;
+    left: 35%;
+  }
 
 .carousel-inner,
 .item {
@@ -299,11 +322,13 @@ footer {
  nav .sub-menu:hover{
     display: block;
   }
-
-  /*front-page  >> */
-  .front-page{
+  
+  /*front-page */
+  .front-page-slider.carousel{
     border-bottom: 30px rgba(255,198,0,1) solid;
+    height: 300px;
   }
+
 
   .single-portfolio .feature-image img{
     width: 100%;

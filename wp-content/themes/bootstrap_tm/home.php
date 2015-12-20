@@ -1,6 +1,5 @@
 
 <?php get_header(); ?>
-
   <div class="container">
     <div class="row">
       <div class="col-md-9">
@@ -111,6 +110,7 @@
 
      <?php get_sidebar('blog'); ?>
 
+    </div>
   </div> 
 
 <?php get_footer(); ?>

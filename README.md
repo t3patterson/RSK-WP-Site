@@ -26,6 +26,15 @@ in wp-adming panel: *Settings > Reading : 'Front Page Displays'*
 - **Field Type**: text
 
 ##MiSC NOTEs
+####`home.php`
+is always the Posts page
+
+####`front-page.php`
+is the landing page
+
+####`page-portfolio`
+fix bootstrap div-rows
+
 ####To get image from template directory 
 Directory: `img src="<?php bloginfo('template_directory'); ?> «rel-file-path»"`
 
@@ -58,3 +67,5 @@ function create_widget($name, $id, $description){
 
 ####To fix/improve
 - build widget footer 
+- Projects Page
+- 

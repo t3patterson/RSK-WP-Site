@@ -1,11 +1,10 @@
 
 <?php /* Template Name: Full Width Template*/ ?>
-
 <?php get_header(); ?>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <?php if (have_posts()) { 
             while( have_posts() ) : the_post(); ?> 
             <div class="page-header">
@@ -19,11 +18,8 @@
         <h3>No content here</h3>
         <?php } ?>
       </div>
-    
-
-
+    </div>
   </div> 
-
+  <hr>
 <?php get_footer(); ?>
-
 

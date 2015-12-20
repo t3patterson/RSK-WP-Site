@@ -5,9 +5,6 @@
 
   <div class="container">
     <div class="row">
-      
-    </div>
-    <div class="row">
       <div class="col-xs-12">
         <?php if (have_posts()) { 
             while( have_posts() ) : the_post(); ?> 
@@ -22,6 +19,7 @@
         <h3>No content for portfolio </h3>
         <?php } ?>
       </div>
+    </div>
     
     <div class="row">
       <?php 

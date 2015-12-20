@@ -32,7 +32,7 @@
       </div>
     
 
-     <?php get_sidebar(); ?>
+     <?php get_ (); ?>
 
   </div> 
 
