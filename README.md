@@ -67,5 +67,5 @@ function create_widget($name, $id, $description){
 
 ####To fix/improve
 - build widget footer 
-- Projects Page
+- Projects/Portfolio Page
 - 

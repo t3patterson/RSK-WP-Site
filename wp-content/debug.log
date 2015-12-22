@@ -1,2 +1,4 @@
 [20-Dec-2015 23:27:17 UTC] PHP Fatal error:  Call to undefined function the() in /Applications/MAMP/htdocs/rsk/wp-content/themes/bootstrap_tm/page-bios-dynamic.php on line 47
 [20-Dec-2015 23:27:19 UTC] PHP Fatal error:  Call to undefined function the() in /Applications/MAMP/htdocs/rsk/wp-content/themes/bootstrap_tm/page-bios-dynamic.php on line 47
+[21-Dec-2015 19:56:23 UTC] PHP Fatal error:  Call to undefined function get_() in /Applications/MAMP/htdocs/rsk/wp-content/themes/bootstrap_tm/single.php on line 35
+[21-Dec-2015 19:56:43 UTC] PHP Fatal error:  Call to undefined function get_() in /Applications/MAMP/htdocs/rsk/wp-content/themes/bootstrap_tm/single.php on line 35
