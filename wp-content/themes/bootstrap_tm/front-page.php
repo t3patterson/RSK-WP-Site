@@ -1,5 +1,5 @@
-  <?php get_header(); ?>
-    
+<?php get_header(); ?>
+  <main id="content-wrapper">
     <div id="carousel-example-generic" class="front-page-slider carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -78,7 +78,7 @@
           </div>
         </div>
       </div>
-    </div> <!-- /container -->
-
+    </div> 
+  </main>
 <?php get_footer(); ?>
     

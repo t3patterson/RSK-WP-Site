@@ -1,6 +1,6 @@
 
 <?php get_header(); ?>
-
+<main id="content-wrapper">
   <div class="container single-portfolio">
     <div class="row">
       <div class="col-xs-12 col-sm-8">
@@ -37,12 +37,10 @@
         } else { ?>
         <h3>No content here for single-porfolio piece</h3>
         <?php } ?>
-      </div>
+    </div>
     
-
-
   </div> 
-
+</main>
 <?php get_footer(); ?>
 
 

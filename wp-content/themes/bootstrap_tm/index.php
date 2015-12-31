@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<main id="content-wrapper">
   <div class="container">
     <div class="row">
       <div class="col-md-9">
@@ -21,7 +22,7 @@
      <?php get_sidebar(); ?>
 
   </div> 
-
+</main>
 <?php get_footer(); ?>
 
 

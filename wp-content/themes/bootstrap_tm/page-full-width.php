@@ -1,7 +1,7 @@
 
 <?php /* Template Name: Full Width Template*/ ?>
 <?php get_header(); ?>
-
+<main id="content-wrapper">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -21,5 +21,6 @@
     </div>
   </div> 
   <hr>
+</main>
 <?php get_footer(); ?>
 
