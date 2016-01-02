@@ -7,8 +7,7 @@
   }
 
   function theme_styles() {
-    wp_enqueue_style('bootstrap_css', theme_dir() . '/css/bootstrap.min.css');
-    wp_enqueue_style('main_css', theme_dir() . '/style.css' );
+    wp_enqueue_style('main_css', theme_dir() . '/dist/style.min.css' );
   }
 
   add_action('wp_enqueue_scripts', 'theme_styles');
