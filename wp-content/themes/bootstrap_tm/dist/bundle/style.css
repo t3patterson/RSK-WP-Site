@@ -23,10 +23,14 @@ main#content-wrapper {
 /*body.admin-bar{
   padding-top: 50px;
 }*/
+body.admin-bar {
+  padding-top: 24px; }
+
 .admin-bar .navbar-fixed-top {
   top: 0px;
   border-top: 3px red solid; }
 
+/*--- Colors  ---*/
 /*rgba(242,242,242,1)-*/
 /*rgba(185,185,185,1)*/
 /*rgba(89,91,91,1)*/
@@ -215,9 +219,7 @@ footer {
 
 /*--- Med-Screen+ Styles  ---*/
 @media screen and (min-width: 768px) {
-  body.admin-bar {
-    padding-top: 89px; }
-
+  /*styles for navbar*/
   .admin-bar .navbar-fixed-top {
     top: 32px;
     border-top: 3px red solid; }
